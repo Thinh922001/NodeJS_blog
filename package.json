@@ -7,7 +7,7 @@
     "start": "Nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "type": "module",
-    "watch":"node-sass -w  src/resource/scss/app.scss src/public/css/app.css"
+    "watch":"node-sass -w  src/resource/scss/app.scss -o src/public/css/app.css"
   },
   "repository": {
     "type": "git",
