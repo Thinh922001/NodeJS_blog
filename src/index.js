@@ -15,6 +15,9 @@ app.set('views', path.join(__dirname, 'resource/views'));
 app.get('/', (req, res) => {
   res.render('home')
 })
+app.get('/trang-chu', (req, res) => {
+  res.render('san-pham')
+})
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
   
